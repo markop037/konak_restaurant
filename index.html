@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Konak</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Konak</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="onama.html">O nama</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="restoran.html">Restoran</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="meni.html">Meni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="galerija.html">Galerija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="nastim.html">Naš tim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="konaciste.html">Konačište</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pdf/vinska karta 2019.pdf" target="_blank">Vinska karta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="stampa.html">Štampa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="mapa.html">Mapa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="img/468090.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption">
+            <h5>Veliki izbor vina vrhunskog kvaliteta</h5>
+            <p>Sve najbolje iz srpskih podruma na jednom mestu</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="img/capa-chica-The-5-Best-Restaurants-in-Miami-You-Must-Go.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption">
+            <h5>U prijatnom ambijentu uređenom u etno stilu</h5>
+            <p>Našim gostima nudimo srpske nacionalne specijalitete</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="img/Muji-Hotel-Shenzhen-02-hotel-room-design-trends-italianbark-.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption">
+            <h5>Komforne, čiste i svetle sobe</h5>
+            <p>Po pristupačnim cenama</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="cards">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/IMG_6077-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Specijaliteti domaće kuhinje</h5>
+                <p class="card-text">Menijem dominiraju jela tradicionalne srpske kuhinje - proja, domaći sir, kajmak i pršut…</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/Pečenje-ispod-sača.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Sač</h5>
+                <p class="card-text">Sveže meso sa obronaka planine Golije i farmi severne Vojvodine, 
+                  spremljeno je na tradicionalan način ispod sača, na ćumuru</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/domaci-hleb-283262.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Svež hleb</h5>
+                <p class="card-text">U furuni se peku ručno rađeni hlebovi od crnog i belog brašna mlevenog na 
+                  starim mlinovima privatnih proizvođača</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/restoran_dva_jelena.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Muzika</h5>
+                <p class="card-text">Ko je u Konaku uz najlepše zvuke proveo bar jedno veče, imaće o čemu da pripoveda...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/download.jpeg" alt="">
+          </div>
+          <div class="col-md-6">
+            <div class="text">
+              <p class="aboutus">O nama</p>
+              <h1>Jednom kafana, uvek kafana</h1>
+              <p class="textt">Kažu da kafane pišu istoriju. One su svedok i poprište, putovanje i odredište. 
+                U njima se sastaje i rastaje, dogovaraju poslovi, veseli i tuguje. Kultura kafane kao mesta okupljanja, 
+                sa povodom ili bez njega, duboko je ukorenjena u srpskoj tradiciji. Na žalost, sve manje je onih pravih - sa dušom. 
+                Nakon osam decenija postojanja, Konak je jedna od retkih kafana koja je uspela da sačuva baš taj iskreni kafanski duh.</p>
+              <p class="quote">”Novac potrošen u kafani je novac uložen u sećanja”</p>
+              <p class="toma">Toma Zdravković</p>
+            </div>
+            <div class="button">
+              <a href="onama.html">Pročitaj više</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="container">
+        <p>Sa našeg menija</p>
+        <h2>Specijaliteti restorana Konak</h2>
+        <div class="specialties">
+          <h4>Konak delikates miks za dve osobe</h4>
+          <p>5100 rsd</p>
+          <h4>Teleći kotlet</h4>
+          <p>2450 rsd</p>
+          <h4>Jagnjeći kotlet</h4>
+          <p>2350 rsd</p>
+          <h4>Zapečeni ćureći file</h4>
+          <p>1840 rsd</p>
+          <h4>Rolovana teletina</h4>
+          <p>2930 rsd</p>
+          <h4>Biftek taljata</h4>
+          <p>4770 rsd</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="team">
+      <div class="headline">
+        <p>Tim restorana</p>
+        <h2>Upoznajte naš tim</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/chef (1).jpg" alt="">
+            <h3>Nikola Savić</h3>
+            <p>Assistent Chef</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/ezgif-4-3238a84fe9.jpg" alt="">
+            <h3>Ivan Arić</h3>
+            <p>Chef</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/Pastry_from_the_Hot_Line-2.jpg" alt="">
+            <h3>Ana Roš</h3>
+            <p>Assistent Chef</p>
+          </div>
+          <div class="button">
+            <a href="nastim.html">Pročitaj više</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container">
+        <h2>Rezerviši svoje mesto</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label"><i class="fas fa-user"></i> Ime i prezime</label>
+                <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Unesite Vaše ime i prezime">
+              </div>
+              <div class="mb-3">
+                <label for="e-mail" class="form-label"><i class="fas fa-envelope"></i> Email adresa</label>
+                <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="Unesite Vašu e-mail adresu">
+              </div>
+              <div class="mb-3">
+                <label for="tel" class="form-label"><i class="fas fa-phone"></i> Telefon</label>
+                <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Unesite Vaš br. telefona">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputMessage1" class="form-label"><i class="fas fa-edit"></i> Poruka</label>
+                <textarea class="form-control" id="exampleInputMessage1" rows="5" placeholder="Unesite tekst Vaše poruke"></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button id="contact-submit-btn" type="submit" class="btn btn-outline-dark">Pošalji</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="info">
+              <p class="main">Kontakt</p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Bulevar Oslobođenja 221, Beograd</p>
+                </li>
+                <li><i class="fa-solid fa-phone"></i>
+                  <p>+381 63 41 52 15</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>info@konakgroup.com</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/logo.png" alt="">
+          </div>
+          <div class="col-sm-4">
+            <div class="work">
+              <p class="main">Radno vreme</p>
+              <ul>
+                <li><p><div class="days">Ponedeljak - Petak:</div> 12:00 - 24:00</p></li>
+                <li><p><div class="days">Subota:</div> 12:00 - 01:00</p></li>
+                <li><p><div class="days">Nedelja:</div> 12:00 - 24:00</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="after-footer">
+      <p>Copyright © 2023 Konak</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

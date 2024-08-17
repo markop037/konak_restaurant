@@ -1,0 +1,139 @@
+body{
+    background-color: #0e1317;
+}
+
+nav{
+    background-color: #090c0f;
+}
+
+nav a{
+    margin-left: 10px;
+}
+
+nav a:hover{
+    color: #c19968 !important;
+}
+
+nav .active:hover{
+    color: white !important;
+}
+
+nav h5{
+    color: #c19968;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav img{
+    height: 100px;
+}
+
+@media(max-width: 1200px){
+    .sidebar{
+        background-color: #0e1317;
+    }
+}
+
+.after-nav img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.after-nav .text h1{
+    position: absolute;
+    top: 35%;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    color: #f1f0f0;
+}
+
+.faq{
+    padding: 100px 0;
+}
+
+.faq .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion{
+    color: white;
+    width: 80%;
+}
+
+.accordion-item{
+    background: #0e1317;
+    color: #909193;
+}
+
+.accordion-button{
+    background: #090c0f;
+    color: white;
+}
+
+.accordion-button:not(.collapsed){
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.footer{
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    background-color: #090c0f;
+}
+
+.footer ul{
+    list-style: none;
+    display: contents;
+}
+
+.footer .main{
+    font-size: 25px;
+}
+
+.footer .info{
+    text-align: left;
+}
+
+.footer img{
+    height: 200px;
+}
+
+.footer .work{
+    text-align: right;
+}
+
+.footer i{
+    font-size: 23px;
+    color: #c19968;
+}
+
+.footer .days{
+    color: #c19968;
+}
+
+@media(max-width:576px){
+
+    .footer img{
+        margin: 40px;
+    }
+
+    .footer p{
+        text-align: center !important;
+    }
+    .footer ul{
+        text-align: center !important;
+    }
+}
+
+.after-footer{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #909193;
+}

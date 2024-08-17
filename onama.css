@@ -1,0 +1,186 @@
+body{
+    background-color: #0e1317;
+}
+
+nav{
+    background-color: #090c0f;
+}
+
+nav a{
+    margin-left: 10px;
+}
+
+nav a:hover{
+    color: #c19968 !important;
+}
+
+nav .active:hover{
+    color: white !important;
+}
+
+nav h5{
+    color: #c19968;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav img{
+    height: 100px;
+}
+
+@media(max-width: 1200px){
+    .sidebar{
+        background-color: #0e1317;
+    }
+}
+
+.after-nav img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.after-nav .text h1{
+    position: absolute;
+    top: 35%;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    color: #f1f0f0;
+}
+
+.about{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.about img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about .text{
+    text-align: left;
+}
+
+.about p{
+    color: #c19968;
+    font-size: 18px;
+}
+
+.about .aboutus{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.about h1{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about .textt{
+    text-align: justify;
+    color: #909193;
+}
+
+.about .quote{
+    color: white;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.about .toma{
+    color: #909193;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.opinion{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.opinion .text{
+    text-align: left;
+}
+
+.opinion h1{
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.opinion p{
+    font-size: 18px;
+    color: #909193;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.opinion img{
+    height: 550px;
+    width: 65%;
+    object-fit: cover;
+}
+
+.footer{
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    background-color: #090c0f;
+}
+
+.footer ul{
+    list-style: none;
+    display: contents;
+}
+
+.footer .main{
+    font-size: 25px;
+}
+
+.footer .info{
+    text-align: left;
+}
+
+.footer img{
+    height: 200px;
+}
+
+.footer .work{
+    text-align: right;
+}
+
+.footer i{
+    font-size: 23px;
+    color: #c19968;
+}
+
+.footer .days{
+    color: #c19968;
+}
+
+@media(max-width:576px){
+
+    .footer img{
+        margin: 40px;
+    }
+
+    .footer p{
+        text-align: center !important;
+    }
+    .footer ul{
+        text-align: center !important;
+    }
+}
+
+.after-footer{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #909193;
+}

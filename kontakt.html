@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Konak</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Konak</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="onama.html">O nama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="restoran.html">Restoran</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="meni.html">Meni</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="galerija.html">Galerija</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="nastim.html">Naš tim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="konaciste.html">Konačište</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="pdf/vinska karta 2019.pdf" target="_blank">Vinska karta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="stampa.html">Štampa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="mapa.html">Mapa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="kontakt.html">Kontakt</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="after-nav">
+        <img src="img/image374.jpg" alt="">
+        <div class="text">
+          <h1>Kontakt</h1>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label"><i class="fas fa-user"></i> Ime i prezime</label>
+                  <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Unesite Vaše ime i prezime">
+                </div>
+                <div class="mb-3">
+                  <label for="e-mail" class="form-label"><i class="fas fa-envelope"></i> Email adresa</label>
+                  <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="Unesite Vašu e-mail adresu">
+                </div>
+                <div class="mb-3">
+                  <label for="tel" class="form-label"><i class="fas fa-phone"></i> Telefon</label>
+                  <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Unesite Vaš br. telefona">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputMessage1" class="form-label"><i class="fas fa-edit"></i> Poruka</label>
+                  <textarea class="form-control" id="exampleInputMessage1" rows="5" placeholder="Unesite tekst Vaše poruke"></textarea>
+                </div>
+                <div class="d-grid gap-2">
+                  <button id="contact-submit-btn" type="submit" class="btn btn-outline-dark">Pošalji</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <div class="info"><i class="fa-solid fa-location-dot"></i>Bulevar Oslobođenja 221, Beograd</div>
+              <div class="info"><i class="fa-solid fa-phone"></i>+381 63 41 52 15</div>
+              <div class="info"><i class="fa-solid fa-envelope"></i>info@konakgroup.com</div>
+              <div class="media">
+                <a href="https://www.viser.edu.rs/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.viser.edu.rs/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.4937945768224!2d20.473719675974287!3d44.77073747944021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7057b6fdda91%3A0x2f4774a68155ae1c!2sBulevar%20Oslobo%C4%91enja%20221%2C%20Beograd%2011000!5e0!3m2!1sen!2srs!4v1694454861742!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="info">
+                <p class="main">Kontakt</p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Bulevar Oslobođenja 221, Beograd</p>
+                  </li>
+                  <li><i class="fa-solid fa-phone"></i>
+                    <p>+381 63 41 52 15</p>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@konakgroup.com</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="img/logo.png" alt="">
+            </div>
+            <div class="col-sm-4">
+              <div class="work">
+                <p class="main">Radno vreme</p>
+                <ul>
+                  <li><p><div class="days">Ponedeljak - Petak:</div> 12:00 - 24:00</p></li>
+                  <li><p><div class="days">Subota:</div> 12:00 - 01:00</p></li>
+                  <li><p><div class="days">Nedelja:</div> 12:00 - 24:00</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="after-footer">
+        <p>Copyright © 2023 Konak</p>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
